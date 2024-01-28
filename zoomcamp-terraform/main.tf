@@ -29,6 +29,6 @@ lifecycle_rule {
 }
 
 resource "google_bigquery_dataset" "zoomcamp-dataset" {
-  dataset_id = "zoomcamp-project-412605-zoomcamp-dataset"
+  dataset_id = var.bq_dataset_name
   location   = "asia-southeast1"
 }

@@ -1,5 +1,5 @@
 *.json
-.untitled.txt
+untitled.txt
 google-cloud-sdk/
 
 # Local .terraform directories
